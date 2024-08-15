@@ -5,7 +5,7 @@
 $ . lets-go.sh "<project-directory>"
 ```
 
-This simple Bash script speeds up your workflow on current projects by elimating endless/keystrokes/to/the/directory/you/want, as well as the extra command (or click) to open your IDE. Let's save our finger strength for the coding, shall we?
+This simple Bash script speeds up your workflow on current projects by eliminating endless/keystrokes/to/the/directory/you/want, as well as the extra command (or click) to open your IDE. Let's save our finger strength for the coding, shall we?
 
 ### Getting Started
 Place this script inside your home directory--typically `/c/Users/<username>` for Windows and MacOS users--or whichever root directory you've designated for your terminal. Open the script and replace the value of `base_path` with the path to your parent directory, ie. `~/Documents/Cool_Dude/Dev_Stuff`
