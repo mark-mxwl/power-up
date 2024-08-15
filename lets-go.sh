@@ -10,7 +10,7 @@ GREEN='\033[1;32m'
 NC='\033[0m' # No Color
 
 endpoint=$1 #Project directory
-base_path=~/Documents/MM_Dev_PC #Parent directory path
+base_path=~/path/to/parent #Parent directory path
 full_path="${base_path}/${endpoint}"
 
 animation () {
