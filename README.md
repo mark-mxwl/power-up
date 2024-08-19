@@ -1,4 +1,4 @@
-# Let's Go! 🛸
+# Power-Up 🛸
 
 This simple Bash script speeds up your directory navigation on current projects by eliminating endless/keystrokes/to/the/directory/you/want, as well as the extra command (or click) to open your IDE. Let's save our finger strength for the coding, shall we?
 
