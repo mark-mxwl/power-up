@@ -28,11 +28,11 @@ progress () {
     echo -e " ${PURPLE}${full_path}${NC}"
     sleep .3
     animation
-    echo -e " ${GREEN}Launching VS Code...${NC}" #Or "Xcode"
+    echo -e " ${GREEN}Launching VS Code...${NC}" #Or "Xcode, IntelliJ, CLion, etc."
     sleep .3
 }
 
-lets_go () { 
+power () { 
     cd ${full_path}
     progress
     printf "\v      ------------------     \n" 
@@ -42,7 +42,7 @@ lets_go () {
     # For Xcode, use "xed ."
 }
 
-lets_go
+power
 
-# Place script in your home/root dir., and run via: 
-# $ . lets-go.sh "<project-directory>"
+# Place script in home/root dir., and run via: 
+# $ . power-up.sh "<project-directory>"
